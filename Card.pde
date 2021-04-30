@@ -72,6 +72,7 @@ class Card {
   }
 
   //Floyd–Steinberg Dithering
+  // Original code of this secition by Daniel Shiffman
   void dithering2() {
     for (int y = 0; y < pic.height -1; y++) {
       for (int x = 1; x < pic.width - 1; x++) {
